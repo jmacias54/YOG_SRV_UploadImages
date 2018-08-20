@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+		
+	<context:annotation-config/>
+	
+	<bean id="uploadImageBO" class="mx.com.amx.unotv.noticias.upload.images.bo.UploadImageBO"></bean>
+	
+	<bean id="uploadInfografiaBO" class="mx.com.amx.unotv.noticias.upload.images.bo.UploadInfografiaBO"></bean>
+	
+	<bean id="uploadGaleriaBO" class="mx.com.amx.unotv.noticias.upload.images.bo.UploadGaleriaBO"></bean>
+	
+	<bean id="uploadBannerBO" class="mx.com.amx.unotv.noticias.upload.images.bo.UploadBannerBO"></bean>
+		
+	<bean id="callWSBO" class="mx.com.amx.unotv.noticias.upload.images.bo.CallWSBO"></bean>
+	
+	<bean id="procesoBO" class="mx.com.amx.unotv.noticias.upload.images.bo.ProcesoBO"></bean>
+	
+	<bean id="utils" class="mx.com.amx.unotv.noticias.upload.images.util.Utils"></bean>
+	
+	
+		
+</beans>
